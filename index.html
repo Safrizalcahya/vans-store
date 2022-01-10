@@ -164,8 +164,6 @@ li a {
             myObj = JSON.parse(this.responseText);
             let text = "";
             for (const x in myObj) {
-                // text += "<div class='row'>";
-                // text += "<div class='col-9'>";
                 text += "<div class='col-md-3'>";
                 text += "<div class='card mt-3 shadow-lg p-3 mb-5 bg-body rounded'>";
                 text += "<img src='img/" + myObj[x].img_produk + "' style='width:100%; height:300px'>";
@@ -178,8 +176,6 @@ li a {
                 text += "</div>";
                 text += "</div>";
                 text += "</div>";
-                // text += "</div>";
-                // text += "</div>";
             }
             document.getElementById("Vans").innerHTML = text;
         };
