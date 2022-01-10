@@ -1,0 +1,63 @@
+[
+	{
+		"img_produk" : "s1a.jpg",
+		"nm_produk" : "Vans old School Black- white ",
+		"harga_produk" : "Rp. 950.000,-"
+	},
+	{
+		"img_produk" : "s2.jpg",
+		"nm_produk" : "Vans old school - White",
+		"harga_produk" : "Rp. 899.000,-"
+	},
+	{
+		"img_produk" : "ww.jpg",
+		"nm_produk" : "vans old school gum - bronze",
+		"harga_produk" : "Rp. 875.000,-"
+	},
+	{
+		"img_produk" : "s4.jpg",
+		"nm_produk" : "Vans old school slip on - white",
+		"harga_produk" : "Rp. 820.000,-"
+	},
+	{
+		"img_produk" : "s5.jpg",
+		"nm_produk" : "Vans old school red - white",
+		"harga_produk" : "Rp. 850.000,-"
+	},
+	{
+		"img_produk" : "r1.jpg",
+		"nm_produk" : "Vans old school rainbow  ",
+		"harga_produk" : "Rp. 750.000,-"
+	},
+	{
+		"img_produk" : "s7.jpg",
+		"nm_produk" : "Vans old school - black white",
+		"harga_produk" : "Rp. 800.000,-"
+	},
+	{
+		"img_produk" : "s8.jpg",
+		"nm_produk" : "Vans Sk 8 High Black White ",
+		"harga_produk" : "Rp. 959.000,-"
+	},
+	{
+		"img_produk" : "e1.jpg",
+		"nm_produk" : "Vans Sk 8 high blue white ",
+		"harga_produk" : "Rp. 959.000,-"
+	},
+	{
+		"img_produk" : "e2.jpg",
+		"nm_produk" : "Vans old school - blue white",
+		"harga_produk" : "Rp. 700.000,-"
+	},
+	{
+		"img_produk" : "g1.jpg",
+		"nm_produk" : "Vans old school - grey bronze",
+		"harga_produk" : "Rp. 735.000,-"
+	},
+	{
+		"img_produk" : "g2.jpg",
+		"nm_produk" : "Vans old school - black bronze",
+		"harga_produk" : "Rp. 750.000,-"
+	}
+	
+]
