@@ -137,7 +137,7 @@ li a {
             <div class="row">
             <div class="col-5"><a href="index.html">Halaman</a></div>
                     <div class="col-5"><a href="index.php">buku tamu</a></div>
-                    <div class="col-5"><a href="#">keranjang</a></div>
+                    <div class="col-5"><a href="keranjang.html">keranjang</a></div>
                     <div class="col-5"><a href="login.html">masuk</a></div>
             </div>
             <div class="head1">
