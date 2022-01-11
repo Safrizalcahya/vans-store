@@ -1,3 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANS STORE</title>
+</head>
+<style>
+    * {
+  box-sizing: border-box;
+}
+body {	margin:0;}
+img {
+  width: 100%;
+  height: auto;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  text-align: center;
+}
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+.head1 {display:flex;
+    background-color:white;
+	flex-wrap:wrap;
+	justify-content:space-between; 
+	align-content:space-between; 
+	}
+.head1 > div {
+	flex-wrap:wrap;
+	margin:1px;
+	padding:5px;
+	}
+ul li{
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+[class*="col-"] a {
+  text-decoration: none;
+  color: #000;
+}
+.head1{
+    position: relative;
+    text-align: left;
+}
+.head1 img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.head1 .middle-left{
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+.head1 .middle-left h1{
+    background: white;
+}
+.middle-left a{
+    background: white;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.middle-left a:hover{
+    background: green;
+    color: white;
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-3">
+            <img src="img/lt.jpg" style="width:70%;height:auto;">
+            <ul>
+                <li class="menu-kiri">
+                    <a href="about.html">Tentang</a>
+					</li>
+                <li class="menu-kiri">
+                    <a href="find.html">Lokasi Toko</a>
+					</li>
+                <li class="menu-kiri">
+                    <a href="Terms.html">syarat & ketentuan</a>
+					</li>
+				<li class="menu-kiri">
+					<a href="contact.html">kontak</a>
+					</li>
+				</ul>
+        </div>
+
+        <div class="col-9">
+            <div class="row">
+            <div class="col-5"><a href="index.html">Halaman</a></div>
+                    <div class="col-5"><a href="index.php">buku tamu</a></div>
+                    <div class="col-5"><a href="#">keranjang</a></div>
+                    <div class="col-5"><a href="login.html">masuk</a></div>
+            </div>
+            <div class="head1">
+                <img src="img/ff.jpg" alt="banner">
+                <div class="middle-left">
+                    <h1>VANS STORE </h1>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
 <?php
 $host       = "localhost";
 $user       = "root";
@@ -97,24 +246,6 @@ if (isset($_POST['simpan'])) { //untuk create
 
 <body>
     <section>
-    <div class="row">
-        <div class="col-3">
-            <img src="img/lt.jpg" style="width:70%;height:auto;">
-            <ul>
-                <li class="menu-kiri">
-                    <a href="about.html">Tentang</a>
-					</li>
-                <li class="menu-kiri">
-                    <a href="find.html">Lokasi Toko</a>
-					</li>
-                <li class="menu-kiri">
-                    <a href="Terms.html">syarat & ketentuan</a>
-					</li>
-				<li class="menu-kiri">
-					<a href="contact.html">kontak</a>
-					</li>
-				</ul>
-        </div>
         <div class="mx-auto">
             <!-- untuk memasukkan data -->
             <div class="card">
